@@ -16,6 +16,7 @@ public class MyServlet implements Servlet {
 
     @Override
     public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+        //niubi
         res.getWriter().write("hehe");
     }
 
